@@ -1,0 +1,286 @@
+body{
+ background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    background-color: #10182b;
+    border: 1px solid #10182b;
+    height: 50px;
+    margin-top: -8px;
+    margin-left: -7px;
+    position: relative;
+
+}
+.navbar .fab{
+    color: white;
+    left: 40px;
+    position: absolute;
+}
+
+input[type='text']{
+    left: 100px;
+    top: 8px;
+    position: absolute;
+    background-color: #20232a;
+    color: white;
+    padding: 6px 40px 6px 10px;
+    border: none;
+}
+#find{
+    left: 40px;
+    top: 50px;
+    border: 0.2px solid grey;
+    padding-right: 80px;
+}
+
+.nav{
+    margin-left: 320px;
+    margin-top: 14px;
+}
+.nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    color: white;
+}
+.navbar .far{
+    top: 14px;
+    right: 120px;
+    position: absolute;
+    color: white;
+}
+
+.navbar .fas{
+    top: 14px;
+    right: 90px;
+    position: absolute;
+    color: white;
+}
+
+#dropdown{
+    right: 77px;
+    color: white;
+}
+
+#user{
+    right: 50px;
+}
+#dropdown2{
+    right: 37px;
+    color: white;
+}
+
+.sidebar{
+    border: 1px solid #20232a;
+    background-color: #20232a;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 1px;
+}
+
+.sidebar #repotext{
+    color: white;
+    margin-left: 40px;
+}
+.new{
+    background-color: #4CAF50;
+    position: absolute;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 16px;
+    left: 210px;
+
+}
+.repo{
+    color: deepskyblue;
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.repo .fa-book{
+    color: white;
+}
+.sidebar h4{
+    margin-left: 40px;
+    color: grey;
+}
+.sidebar hr{
+    margin-left: 40px;
+    margin-right: 20px;
+    color: gray;
+}
+.sidebar p{
+    margin-left: 40px;
+    color: white;
+}
+.sidebar #text{
+    color: grey;
+}
+#createbutton{
+    margin-left: 40px;
+    background-color: #282a36;
+    color: deepskyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.banner{
+    border: 1px solid #282a36;
+    opacity: 0.7;
+    background-color: #282a36;
+    position: absolute;
+    top: 10%;
+    height: 50%;
+    width: 54%;
+    left: 330px;
+    border-radius: 5px;
+}
+.banner h1{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+.banner h3{
+    color: gray;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.banner #button{
+    margin-left: 25%;
+}
+.readbutton, .startbutton{
+    padding: 7px 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #4CAF50;
+}
+.startbutton{
+   background-color: gray;
+    margin-left: 4%;
+}
+
+.sidebar2{
+    border: 1px solid #20232a;
+    border-radius: 5px;
+    background-color: #20232a;
+    width: 20%;
+    height: 25%;
+    top: 10%;
+    right: 2%;
+    position: absolute;
+}
+.darkmode{
+    margin-left: 5px;
+}
+.fa-circle{
+    color: gray;
+    margin-top: 10px;
+    margin-left: -125px;
+}
+.fa-moon{
+    color: yellow;
+    margin-left: -125px;
+    margin-top: 20px;
+}
+.sidebar2 h3{
+    color: white;
+   padding-left: 45px;
+    padding-top: 13px;
+    opacity: 0.5;
+}
+.sidebar2 h4{
+    margin-left: 15px;
+    color: white;
+    opacity: 0.5;
+}
+.sidebar2 button{
+    margin-left: 15px;
+    color: white;
+    background-color: #282a36;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+}
+.banner2, .banner3{
+    color: white;
+    position: absolute;
+    width: 51%;
+    top: 65%;
+    left: 25%;
+}
+.banner2 hr, .banner3 hr{
+    position: absolute;
+    top: 350%;
+    width: 100%;
+
+}
+#user2, #user3{
+    position: absolute;
+    left: -3px;
+    top: 10px;
+}
+.details{
+    border: 1px solid #282a36;
+    background-color: #282a36;
+    width: 90%;
+    position: absolute;
+    margin-left: 30px;
+    padding-right: 50px;
+    padding-right: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.banner2 p, .banner3 p{
+    margin-left: 35px;
+    opacity: 0.7;
+}
+
+.details h4{
+    margin-left: 15px;
+    opacity: 0.7;
+    margin-top: -10px;
+}
+.details h5{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+#issue, #update, .fa-star, #update2{
+    padding-left: 15px;
+}
+.details p{
+    opacity: 1;
+    margin-left: 15px;
+}
+.cssSelect{
+    color: rebeccapurple;
+    margin-left: 40px;
+}
+.cssSelect2{
+    color: yellow;
+    margin-left: 40px;
+}
+.banner3{
+    top: 90%;
+}
+.star{
+    position: absolute;
+    right: 3%;
+    top: 7%;
+    color: white;
+    background-color: #20232a;
+    border: none;
+    border-radius: 3px;
+    padding-right: 10px;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
